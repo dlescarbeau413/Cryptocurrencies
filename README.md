@@ -26,7 +26,7 @@ PCA_DataFrame:
 
 
 
-In the third deliverable, we used the KMeans method to create an elbow curve to find the best number of clusters to group our cryptocurrency data. After going through the process of finding the best value for K from the pcs_df, we used the dataframe to run the KMeans algorithm to make predictions of the K clusters. We then created a bigger dataframe which merged the PCA dataframe with the crypto dataframe we created in the first deliverable. This dataframe had all of the information that we needed to chart the data that we gathered on the cryptocurrencies. That elbow curve chart:
+In the third deliverable, we used the KMeans method to create an elbow curve to find the best number of clusters to group our cryptocurrency data. After going through the process of finding the best value for K from the pcs_df, we used the dataframe to run the KMeans algorithm to make predictions of the K clusters. We then created a bigger dataframe which merged the PCA dataframe with the crypto dataframe we created in the first deliverable. This dataframe had all of the information that we needed to chart the data that we gathered on the cryptocurrencies. The elbow curve chart to determine the number of clusters is as follows:
 
 
 ![](Resources/elbow_curve.PNG)
