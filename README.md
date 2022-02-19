@@ -6,12 +6,12 @@ For this challenge, we were tasked with creating a report detailing what cryptoc
 For the first part of our deliverable, we needed to clean up the data so we could use it to fit our unsupervised machine learning model. We took our raw data, trimmed it down to current cryptocurrencies that were trading and had a working algorithm then dropped columns that wouldn’t be needed in our clustering algorithm. Our final dataframe was the crypto dataframe that contained the name of the cryptocurrencies as the index, the algorithm used, Proof Type, Coins Mined, and Total Coin supply. 
 In the second deliverable, we used PCA to reduce the dimensions in our dataset to three dimensions from the dataframe we created in the get_dummies() stage in our preprocessing. The PCA dataframe that we created looks like the following:
 
-![]()
+![](Resources/pca_df.PNG)
 
 
 
 
-In the third deliverable, we used the KMeans method to create an elbow curve to find the best number of clusters to group our cryptocurrency data. After going through the process of finding the best value for K from the pcs_df, we used the dataframe to run the KMeans algorithm to make predictions of the K clusters. We then created a bigger dataframe which merged the PCA dataframe with the crypto dataframe we created in the first deliverable. This dataframe had all of the information that we needed to chart the data that we gathered on the cryptocurrencies. That dataframe is as follows:
+In the third deliverable, we used the KMeans method to create an elbow curve to find the best number of clusters to group our cryptocurrency data. After going through the process of finding the best value for K from the pcs_df, we used the dataframe to run the KMeans algorithm to make predictions of the K clusters. We then created a bigger dataframe which merged the PCA dataframe with the crypto dataframe we created in the first deliverable. This dataframe had all of the information that we needed to chart the data that we gathered on the cryptocurrencies. That elbow curve chart:
 
 
 ![](Resources/elbow_curve.PNG)
@@ -45,7 +45,7 @@ With this data frame, we created a scatter plot with hvplot to plot the Total Co
 
 
 
-![](plot_df_scatterplot.PNG)
+![](Resources/plot_df_scatterplot.PNG)
 
 
 
