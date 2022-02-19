@@ -9,12 +9,18 @@ In the second deliverable, we used PCA to reduce the dimensions in our dataset t
 
 
 Crypto_DataFrame:
+
+
+
 ![](Resources/mined_Cryptocurrencies.PNG)
 
 
 
 
 PCA_DataFrame:
+
+
+
 ![](Resources/pca_df.PNG)
 
 
