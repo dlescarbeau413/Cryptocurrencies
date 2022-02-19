@@ -4,8 +4,17 @@ For this challenge, we were tasked with creating a report detailing what cryptoc
 
 
 For the first part of our deliverable, we needed to clean up the data so we could use it to fit our unsupervised machine learning model. We took our raw data, trimmed it down to current cryptocurrencies that were trading and had a working algorithm then dropped columns that wouldn’t be needed in our clustering algorithm. Our final dataframe was the crypto dataframe that contained the name of the cryptocurrencies as the index, the algorithm used, Proof Type, Coins Mined, and Total Coin supply. 
-In the second deliverable, we used PCA to reduce the dimensions in our dataset to three dimensions from the dataframe we created in the get_dummies() stage in our preprocessing. The PCA dataframe that we created looks like the following:
+In the second deliverable, we used PCA to reduce the dimensions in our dataset to three dimensions from the dataframe we created in the get_dummies() stage in our preprocessing. The crypto dataframe and PCA dataframe that we created look like the following:
 
+
+
+Crypto_DataFrame:
+![](Resources/mined_Cryptocurrencies.PNG)
+
+
+
+
+PCA_DataFrame:
 ![](Resources/pca_df.PNG)
 
 
